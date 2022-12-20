@@ -1,0 +1,49 @@
+body{  
+  display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+#entete{
+	display: flex;
+	flex-direction: column;
+}
+#mesinfos{
+	display: flex;
+	flex-direction: column;
+}
+
+.mylist{
+	background: lightpink;
+}
+
+#poste{
+	display: flex;
+	justify-content: center;
+}
+
+h2{
+	text-align: center;
+	color: red;
+	font-style: italic;
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+}
+
+h3{
+	color: mediumpurple;
+	text-decoration: underline;
+}
+a:hover{
+  color:#7C19CE;
+  background:white;
+  transition:all 100ms ease-out;
+  cursor: crosshair;
+}
+p{
+	border-width: 10px;
+	border-style: none;
+	border-color: black;
+	border-radius: 10px;
+}

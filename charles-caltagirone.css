@@ -1,0 +1,33 @@
+body{  
+  display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+#entete{
+	display: flex;
+	flex-direction: row-reverse;
+}
+#mesinfos{
+	display: flex;
+	flex-direction: column;
+}
+
+.mylist{
+	background: lightblue;
+}
+
+#poste{
+	display: flex;
+	justify-content: center;
+}
+
+h2{
+	color: red;
+	font-style: italic;
+}
+
+h3{
+	color: mediumpurple;
+	text-decoration: underline;
+}
+

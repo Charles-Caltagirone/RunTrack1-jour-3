@@ -1,0 +1,72 @@
+body{
+  font-family: American Typewriter, serif;
+  font-size:15px;
+  line-height:1.6;
+  margin:0;
+  display:flex;
+  height:100vh;
+  color:#1945CE;
+}
+
+h1{
+  color: 7B2003;
+}
+
+#photo{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color:red;
+  text-decoration:underline;
+}
+
+a:hover{
+  color:#CE7F19;
+  background:white;
+  transition:all 400ms ease-out;
+}
+.header{
+    background:#06838D;
+    width:360px;
+}
+
+.nav{
+  margin:auto;
+  padding:25px;
+  box-sizing:border-box;
+  height:10vh;
+}
+
+.flex{
+  display:flex;
+  flex-direction:column;
+}
+
+.flex-item{
+  box-sizing:border-box;
+  padding:12px;
+}
+
+.flex-item.home{
+  margin:0 0 auto 0;
+  font-size:1em;
+  padding:0;
+}
+.flex-item.home a{
+  padding:12px;
+}
+
+.flex-item.last{
+  margin-top:auto;
+}
+
+.main{
+  padding:25px;
+  overflow-y:scroll;
+  flex:1;
+}
+p{
+  max-width:200px;
+}
